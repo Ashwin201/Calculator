@@ -14,24 +14,12 @@ html
 .container
 {
     height: 100vh;
+    width: 100%;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
     background-color: rgb(87, 87, 87);
-}
-.heading
-{
-    font-size: 4rem;
-    display: flex;
-    margin-top: -4rem;
-    padding-bottom: 2rem;
-    width: 50rem;
-    font-weight: 900;
-    font-family: "poppins" 'Trebuchet MS', sans-serif;
-    margin-bottom: 4rem;
-    justify-content: center;
-    align-items: center;border-bottom: 2px solid black;
 }
 
 .calculator
@@ -105,6 +93,7 @@ button{
     cursor: pointer;
     color: whitesmoke;
     background-color: rgb(39, 38, 38);
+    border: none;
 
 
 }
